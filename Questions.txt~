@@ -1,0 +1,61 @@
+﻿Questions on Binary Tree :
+
+1. Print the left view of a binary tree.
+
+2.Print the deepest right leaf node of a binary tree
+
+3. print the tree in a spiral form (given is the pointer to the root node)
+	     1
+	  2     3
+	4   5 6   7
+
+	op:
+	1
+	3 2
+	4 5 6 7
+first try with the simple logic O(n^2) where n is the number of nodes in the given tree.
+then try to optimize it to do it in O(n).
+
+
+Questions on Linked List :
+4. Add the two numbers represented by two linked lists respectively input : the heads of the both the linked list handle all the edge cases
+e.g. 1->2->3->4->null
+       5->6->7->null 
+  4321
++  765
+ -----
+  5086
+output : 6->8->0->5->null
+
+5.Given a pointer to a node of the linked list, delete that node.
+input : pointer to the node to be deleted
+1->2->3->4->null
+lets say pointer to 2 was given 
+output : 1->3->4->null
+
+6. Given an array of integers, find the maximum sum of a contiguous subarray(not subsequence)
+input : [-2, -3, 4, -1, -2, 1, 5, -3]
+--> 4 + (-1) + (-2) + 1 + 5
+output : 7 
+Input:  [3, 2, 6, 4, 5, 1]
+--->[3, 4, 5]
+ouput : 12
+
+Questions on Subsequence & Subarray :
+7. Maximum sum increasing subsequence
+subsequence - 'xoriantsystems' -- 'xoatysts' is a subsequence of the parent string (need not to be contiguous)
+return the sum of the maximum sum increasing subsequence such that the integers in the subsequence are sorted non-decreasing order.
+Input: length of the array, array elements
+Input: [1, 104, 2, 3, 100, 4, 6]
+--> [1, 2, 3 ,100]
+Output: 106
+
+8.Given two strings of length m and n respectively find the length of longest
+common subsequence 
+input : xoriantsolutions , xorandornot
+--> xoranot
+ouput : 7
+
+Other:
+9.You are given only 5 zeros, apply any mathematical operator(s) any number of times make the result 120
+
